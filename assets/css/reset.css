@@ -1,0 +1,163 @@
+/* 1. =GLOBAL RESET
+=================================================== */
+
+* { /* http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	background:transparent;
+	border:0;
+	font:inherit; /* Sets inherit for family, style and weight */
+	font-size:100%;
+	margin:0;
+	outline: 0;
+	padding:0;
+	vertical-align:baseline;
+}
+
+html {
+    height:100%;
+    overflow-y:scroll; /* Keeps page centred in all browsers regardless of content height */
+    -webkit-text-size-adjust:100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust:100%; /* Prevents Internet Explorer Mobile text size adjust after orientation change, without disabling user zoom - http://msdn.microsoft.com/en-us/library/ff462082%28v=vs.92%29.aspx*/
+	-webkit-font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+body { 
+	height:100%;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+caption,
+td,
+th { 
+	text-align:left; 
+	font-weight:normal; 
+}
+
+blockquote, q {
+	quotes:none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before, q:after { 
+	content:"";
+	content:none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display:block; 
+}
+
+audio,
+canvas,
+video { /* Corrects inline-block display not defined in IE6/7/8/9 and FF3 */
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+}
+
+audio:not([controls]) { /* Prevents browsers from displaying audio without controls */
+    display:none;
+}
+
+img {
+  	border:0;
+	display:block;
+	max-width:100%;	
+	-ms-interpolation-mode:bicubic; /* Improves image quality when scaled in IE7 */
+	vertical-align:middle;
+}
+
+#map_canvas img,
+#map img {
+	max-width:none; /* Fixes issue with max-width destroying map controls */
+}
+
+legend {
+    border:0; 	/* Corrects color not being inherited in IE6/7/8/9 */
+    *margin-left:-7px; /* Corrects alignment displayed oddly in IE6/7 */
+}
+
+button,
+input,
+select,
+textarea {
+    font-size:100%;
+	vertical-align:middle;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    cursor:pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
+    -webkit-appearance:button; /* Corrects inability to style clickable 'input' types in iOS */
+    *overflow:visible;  /* Removes inner spacing in IE7 without affecting normal text inputs Known issue:inner spacing remains in IE6 */
+}
+
+input[type="search"] {
+    -webkit-appearance:textfield; /* Addresses appearance set to searchfield in S5, Chrome */
+    -moz-box-sizing:content-box;
+    -webkit-box-sizing:content-box; /* Addresses box-sizing set to border-box in S5, Chrome (include -moz to future-proof) */
+    box-sizing:content-box;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button { /* Removes inner padding that is displayed in S5, Chrome on OS X */
+    -webkit-appearance:none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner { /* Removes inner padding and border in FF3+ */
+    border:0;
+    padding:0;
+}
+
+textarea {
+    overflow:auto; /* Removes default vertical scrollbar in IE6/7/8/9 */
+    vertical-align:top; /* Improves readability and alignment in all browsers */
+}
+
+nav ul,
+nav li { 
+    list-style:none; 
+    list-style-image:none;
+    margin:0; 
+    padding:0;
+}
+
+.clearfix {
+  *zoom:1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display:table;
+  line-height:0;
+  content:"";
+}
+
+.clearfix:after {
+  clear:both;
+}

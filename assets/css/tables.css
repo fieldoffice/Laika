@@ -1,0 +1,28 @@
+/* 8. =TABLES
+=================================================== */
+
+table {
+	vertical-align:top;
+	width:100%;
+	max-width:100%;
+}
+
+td,th {
+	padding:0.40384625em;	
+}
+
+th {
+	background:#222;
+	font-weight:700;
+	color:#fff;
+}
+
+tr.odd,
+tr:nth-child(odd) {
+	background: #fff;
+}
+
+tr.even,
+tr:nth-child(even) {
+	background: #e9e9e9;
+}

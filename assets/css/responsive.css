@@ -1,0 +1,21 @@
+/* 10. =RESPONSIVE
+=================================================== */
+
+@media only screen and (min-width: 480px) {
+  	/* 480 =================================================== */
+}
+@media only screen and (min-width: 600px) {
+  	/* 600 =================================================== */
+}
+@media only screen and (min-width: 768px) {
+  	/* 768 =================================================== */
+}
+@media only screen and (min-width: 992px) {
+  	/* 992 =================================================== */
+}
+@media only screen and (min-width: 1382px) {
+	/* 1382 =================================================== */
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+	/* 2x =================================================== */
+}
