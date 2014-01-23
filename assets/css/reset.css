@@ -24,7 +24,6 @@ html {
     overflow-y:scroll; /* Keeps page centred in all browsers regardless of content height */
     -webkit-text-size-adjust:100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
     -ms-text-size-adjust:100%; /* Prevents Internet Explorer Mobile text size adjust after orientation change, without disabling user zoom - http://msdn.microsoft.com/en-us/library/ff462082%28v=vs.92%29.aspx*/
-	-webkit-font-smoothing:antialiased;
 	text-rendering:optimizeLegibility;
 }
 
@@ -63,10 +62,11 @@ figure,
 footer,
 header,
 hgroup,
-menu,
+main,
 nav,
-section {
-	display:block; 
+section,
+summary {
+    display: block;
 }
 
 audio,
