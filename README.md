@@ -1,4 +1,4 @@
 Laika
 ====
 
-Responsive Starter Kit
+[Deprecated] Responsive Starter Kit
