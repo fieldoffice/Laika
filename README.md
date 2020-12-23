@@ -1,7 +1,7 @@
 Laika
 ====
 
-Responsive Starter Kit
+Responsive Boilerplate
 
 ## Features
 
@@ -17,7 +17,7 @@ Responsive Starter Kit
 ### NPM Requirements
 * bulma
 * gulp
-* gulp-jshint
+* jshint
 * sass
 * terser
 * concat
