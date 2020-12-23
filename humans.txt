@@ -13,7 +13,5 @@ Standards:
 - CSS3
 
 Components: 
-- jQuery http://jquery.com/
-- HTML5 Shiv http://html5shiv.googlecode.com/svn/trunk/html5.js
 
 Software/CMS:
