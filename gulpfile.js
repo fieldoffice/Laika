@@ -9,7 +9,7 @@ var
     concat      = require('gulp-concat'),
     rename      = require('gulp-rename'),
     plumber     = require('gulp-plumber'),
-    cssnano     = require('gulp-cssnano'),
+    cssnano     = require('gulp-cssnano');
 
 // File paths
 var paths = {
